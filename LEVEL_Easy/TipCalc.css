@@ -54,3 +54,44 @@ input ,select,.total{
     background-color: white;
 }
 
+/* To-Do-List */
+.add{
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.complete{
+    margin:0;
+    font-weight: bold;
+    background-color: white;
+    color: green;
+    border-right:1px solid rgb(228, 80, 105);
+}
+
+.del{
+    margin:0;
+    background-color: white;
+    font-weight: bold;
+    color: red;
+    float: right;
+    /* border:1px solid rgb(228, 80, 105); */
+}
+
+.content{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+.hide{
+    border:1px solid rgb(228, 80, 105);
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+
+.complete:hover, .edit:hover, .del:hover{
+    background-color:rgb(245, 169, 182); ;
+}
